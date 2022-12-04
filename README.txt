@@ -22,3 +22,5 @@ TODO:
 - Add more exploits
 - Import Windows exploits(currently not usable)
 - Test proFTPD 1.3.2rc3 exploit 
+
+Change msfvenom_host and msfvenom_port veriable in exploit.py to callback server and port 
