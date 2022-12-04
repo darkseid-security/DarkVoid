@@ -1,0 +1,14 @@
+violator
+marlinspike
+msfadmin
+anonymous
+user
+guest
+admin
+test
+root
+ftp
+system
+administrator
+service
+mysql
