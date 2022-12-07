@@ -23,4 +23,4 @@ TODO:
 - Import Windows exploits(currently not usable)
 - Test proFTPD 1.3.2rc3 exploit 
 
-*Change msfvenom_host and msfvenom_port variable in exploit.py to callback to server and port exploits will fail if left blank
+*Change msfvenom_host and msfvenom_port variable in exploit.py to callback to server and port for the php meterpreter reverse shell
