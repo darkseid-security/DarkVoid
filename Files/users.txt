@@ -1,0 +1,10 @@
+admin
+administrator
+guest
+root
+service
+vagrant
+anonymous
+ftp
+msfadmin
+
