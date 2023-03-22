@@ -1,6 +1,6 @@
 [DARKVOID V1.2]
 
-<img src="https://github.com/darkseid-security/DarkVoid/blob/main/IMG/Screenshot%20at%202022-12-04%2005-17-11.png">
+<img src="https://github.com/darkseid-security/DarkVoid/blob/main/IMG/darkvoid1.png">
 
 Mass FTP exploitation tool, automates vulnerbility scanning and exploiting FTP servers.
 
